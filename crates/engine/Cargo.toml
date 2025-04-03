@@ -1,14 +1,14 @@
 [package]
 name = "aum-engine"
-version = "0.1.0"
-edition = "2024"
-readme = "../../README.md"
+version.workspace = true
+edition.workspace = true
+readme.workspace = true
 description = "Engine library for AUM"
-license = "Apache-2.0"
+license.workspace = true
 repository.workspace = true
 
 [dependencies]
-aum-core = { path = "../core" }
+aum-core = "0.1.0"
 futures-util = "0.3.31"
 serde_json = "1.0.140"
 thiserror = "2.0.12"

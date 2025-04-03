@@ -40,10 +40,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "aum-core"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8b0399c556ee368e98521cb2d8438b84361f0234f31877802147c900fe694898"
+dependencies = [
+ "async-trait",
+ "hex",
+ "serde",
+ "serde_json",
+ "thiserror",
+]
+
+[[package]]
 name = "aum-engine"
 version = "0.1.0"
 dependencies = [
- "aum-core",
+ "aum-core 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "futures-util",
  "serde_json",
  "thiserror",
