@@ -1,3 +1,9 @@
 [workspace]
 members = ["crates/core", "crates/engine"]
 resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+readme = "README.md"
+license = "Apache-2.0"

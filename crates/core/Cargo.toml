@@ -1,10 +1,10 @@
 [package]
 name = "aum-core"
-version = "0.1.0"
-edition = "2024"
-readme = "README.md"
+version.workspace = true
+edition.workspace = true
+readme.workspace = true
+license.workspace = true
 description = "Core library for AUM"
-license = "Apache-2.0"
 
 [dependencies]
 async-trait = "0.1.88"

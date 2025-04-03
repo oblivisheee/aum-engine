@@ -2,7 +2,7 @@
 name = "aum-engine"
 version = "0.1.0"
 edition = "2024"
-readme = "README.md"
+readme = "../../README.md"
 description = "Engine library for AUM"
 license = "Apache-2.0"
 
