@@ -2,7 +2,7 @@
 name = "aum-engine"
 version.workspace = true
 edition.workspace = true
-readme = "README.md"
+readme.workspace = true
 description = "Engine library for AUM"
 license.workspace = true
 repository.workspace = true
