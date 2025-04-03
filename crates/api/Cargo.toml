@@ -1,9 +1,8 @@
 [package]
-name = "aum-engine"
+name = "aum-api"
 version.workspace = true
 edition.workspace = true
-readme = "README.md"
-description = "Engine library for AUM"
+readme.workspace = true
 license.workspace = true
 repository.workspace = true
 
@@ -11,7 +10,6 @@ repository.workspace = true
 aum-core = "0.1.0"
 futures-util = "0.3.31"
 serde_json = "1.0.140"
-thiserror = "2.0.12"
 tokio = { version = "1.44.1", features = ["rt", "rt-multi-thread", "macros"] }
 tokio-tungstenite = "0.26.2"
-tracing = "0.1.41"
+tungstenite = "0.26.2"

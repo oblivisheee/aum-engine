@@ -29,6 +29,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "aum-api"
+version = "0.1.0"
+dependencies = [
+ "aum-core 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "futures-util",
+ "serde_json",
+ "tokio",
+ "tokio-tungstenite",
+ "tungstenite",
+]
+
+[[package]]
 name = "aum-core"
 version = "0.1.0"
 dependencies = [
