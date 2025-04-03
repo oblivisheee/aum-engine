@@ -5,6 +5,7 @@ edition.workspace = true
 readme.workspace = true
 license.workspace = true
 repository.workspace = true
+description = "API library for AUM"
 
 [dependencies]
 aum-core = "0.1.0"
