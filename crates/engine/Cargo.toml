@@ -5,6 +5,7 @@ edition = "2024"
 readme = "../../README.md"
 description = "Engine library for AUM"
 license = "Apache-2.0"
+repository.workspace = true
 
 [dependencies]
 aum-core = { path = "../core" }
