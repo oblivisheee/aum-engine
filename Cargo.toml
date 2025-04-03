@@ -1,2 +1,3 @@
 [workspace]
-members = ["crates/sdk", "crates/core", "crates/engine"]
+members = ["crates/core", "crates/engine"]
+resolver = "2"
