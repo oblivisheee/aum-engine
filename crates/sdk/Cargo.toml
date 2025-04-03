@@ -1,0 +1,9 @@
+
+[package]
+name = "aum-sdsk"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aum-core = { path = "../core" }
+aum-engine = { path = "../engine" }

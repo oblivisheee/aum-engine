@@ -1,0 +1,13 @@
+[package]
+name = "aum-engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aum-core = { path = "../core" }
+futures-util = "0.3.31"
+serde_json = "1.0.140"
+thiserror = "2.0.12"
+tokio = { version = "1.44.1", features = ["rt", "rt-multi-thread", "macros"] }
+tokio-tungstenite = "0.26.2"
+tracing = "0.1.41"
